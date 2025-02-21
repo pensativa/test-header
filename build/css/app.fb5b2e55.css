@@ -2506,7 +2506,8 @@ body {
 }
 @media (width >= 1200px) {
     .nav__panel,
-    .nav__item-search {
+    .nav__item-search,
+    .nav__list-item--mob {
         display: none;
     }
 }
@@ -2750,4 +2751,4 @@ body {
 }
 
 
-/*# sourceMappingURL=app.5537222d.css.map*/
+/*# sourceMappingURL=app.fb5b2e55.css.map*/
