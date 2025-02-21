@@ -1,0 +1,2753 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    outline-offset: -2px; /* 2 */
+  }
+
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+  
+@font-face {
+    font-family: icons;
+    src: url(../5fc7932294321a65aa23.woff2);
+    src: url(../5fc7932294321a65aa23.woff2?926) format("woff2"),
+    url(../82d9baeabbcf5eb42898.woff?926) format("woff"),
+    url(../5cb7f97c5c9c18ac551f.eot?926#iefix) format("eot"),
+    url(../f9d5f88b63a954ddcceb.svg?926#icons) format("svg");
+    font-display: swap
+}
+
+.fa-BBC::before,.fa-CNN::before,.fa-Ease-use::before,.fa-NewYorkTimes::before,.fa-Pricing::before,.fa-Research::before,.fa-Speed-w::before,.fa-Speed::before,.fa-Star-s-half-o::before,.fa-Star-s-o::before,.fa-Star-s::before,.fa-The_Guardian::before,.fa-Times::before,.fa-USA_Today::before,.fa-Ubuntu_logo::before,.fa-Union::before,.fa-access::before,.fa-accordion-btn::before,.fa-address-card::before,.fa-alarm::before,.fa-amazon-new::before,.fa-amazon-prime::before,.fa-amazon-prime2::before,.fa-anchor::before,.fa-android-1::before,.fa-android-brands::before,.fa-android-line::before,.fa-android-new::before,.fa-android-small::before,.fa-android::before,.fa-angellist::before,.fa-angle-up::before,.fa-apple-1::before,.fa-apple::before,.fa-arrow-alt-circle-down-solid::before,.fa-arrow-alt-circle-up-solid::before,.fa-arrow-circle-down::before,.fa-arrow-circle-right::before,.fa-arrow-circle-up::before,.fa-arrow-left-solid::before,.fa-arrow-left::before,.fa-arrow-right::before,.fa-arrow-up-circle::before,.fa-arrow-up::before,.fa-arrow::before,.fa-award::before,.fa-award2::before,.fa-bag::before,.fa-balance-scale::before,.fa-ban::before,.fa-bar-chart::before,.fa-bbc-iplayer::before,.fa-bbc::before,.fa-best-deals::before,.fa-best_category_check_icon::before,.fa-bestvpn::before,.fa-bestvpn2::before,.fa-bitcoin-tool::before,.fa-body::before,.fa-browser::before,.fa-btc::before,.fa-bubble-chat::before,.fa-bubble-with-exclamation-mark::before,.fa-bullhorn-solid::before,.fa-bullhorn::before,.fa-calendar-silhouette::before,.fa-calendar::before,.fa-camera-off::before,.fa-camera-on::before,.fa-caret-down::before,.fa-cashback::before,.fa-certificate::before,.fa-chart-line-down::before,.fa-chart-line::before,.fa-chart::before,.fa-check-2::before,.fa-check-box::before,.fa-check-circle-regular::before,.fa-check-circle::before,.fa-check-coupon::before,.fa-check-mark::before,.fa-check::before,.fa-checkmark::before,.fa-chess-king::before,.fa-chevron-circle-right-solid::before,.fa-chevron-down::before,.fa-chevron-left-solid::before,.fa-chevron-left::before,.fa-chevron-right-solid::before,.fa-chevron-right::before,.privacy-alert-wrap .privacy-button-orange::before,.top-vendor ul li .top-vendor-arrow::before,.fa-chevron-up::before,.fa-chevrons-down::before,.fa-china-firewall::before,.fa-chrome::before,.fa-circle-chevron-left::before,.fa-circle-chevron-right::before,.fa-circle-down::before,.fa-circle-info::before,.fa-circle-regular::before,.fa-circle-up::before,.fa-clip::before,.fa-clip2::before,.fa-clock-solid::before,.fa-clock-time::before,.fa-cloud-protection::before,.fa-cog::before,.fa-coin::before,.fa-coins::before,.fa-comment-check::before,.fa-comment-edit::before,.fa-comment-lines::before,.fa-comment-o-edit::before,.fa-comment::before,.fa-comments::before,.fa-comparision::before,.fa-console::before,.fa-crackle::before,.fa-credit-card::before,.fa-cross::before,.fa-customer-support::before,.fa-dark-net::before,.fa-dark-web::before,.fa-dashboard::before,.fa-dazn::before,.fa-defence-cross::before,.fa-defence-tick::before,.fa-defence-warning::before,.fa-desktop::before,.fa-devices::before,.fa-discount::before,.fa-dislike-round::before,.fa-dislike::before,.fa-disney-colored::before,.fa-disney-new::before,.fa-disney::before,.fa-doc::before,.fa-dollar-sign::before,.fa-download-cloud::before,.fa-download::before,.fa-downloads::before,.fa-ease::before,.fa-edge::before,.fa-envelope-solid::before,.fa-envelope::before,.fa-espn-plus::before,.fa-espn::before,.fa-exclamation-triangle-solid::before,.fa-exclamation::before,.fa-experience::before,.fa-expert::before,.fa-eye-slash::before,.fa-eye::before,.fa-eyes-alliance::before,.fa-eyes::before,.fa-facebook-official::before,.fa-facebook-square-brands::before,.fa-facebook::before,.fa-fact-checked::before,.fa-fanduel-new::before,.fa-fastest-vpns::before,.fa-feather-alt-solid::before,.fa-feather::before,.fa-features::before,.fa-fifa-plus::before,.fa-fifa::before,.fa-file-certificate::before,.fa-file-check::before,.fa-file-o::before,.fa-file-signature::before,.fa-filter::before,.fa-finger::before,.fa-firefox-browser::before,.fa-firefox::before,.fa-flag-usa::before,.fa-flag::before,.fa-fox-news::before,.fa-free-trials-vpns::before,.fa-free-vpns::before,.fa-freebbc-new::before,.fa-fresh-session::before,.fa-fubotv::before,.fa-gamepad-modern::before,.fa-gaming-new::before,.fa-gaming_console::before,.fa-garbage::before,.fa-gauge::before,.fa-globe-solid::before,.fa-globe::before,.fa-goblet::before,.fa-google-square-brands::before,.fa-google::before,.fa-graduation-cap::before,.fa-green-tick::before,.fa-hand-point-right::before,.fa-hands-free::before,.fa-handshake-o::before,.fa-hbo-max::before,.fa-hbo-now::before,.fa-hbo::before,.fa-hbomax::before,.fa-hdd::before,.fa-heart::before,.fa-hidden-eye::before,.fa-hide-ip::before,.fa-hideIp::before,.fa-high::before,.fa-holders::before,.fa-home-hand::before,.fa-home-sale::before,.fa-hourglass-half::before,.fa-house::before,.fa-how-to-use-vpn::before,.fa-hulu-full::before,.fa-hulu::before,.fa-icon-copy::before,.fa-icon-follower::before,.fa-icon-refresh::before,.fa-icon_test::before,.fa-id-card::before,.fa-india-vpns::before,.fa-info-circle-solid::before,.fa-info::before,.fa-ios-line::before,.fa-ios-new::before,.fa-ios::before,.fa-ios2::before,.fa-ios3::before,.fa-ip::before,.fa-iphone::before,.fa-iplayer::before,.fa-kill-switch::before,.fa-laugh::before,.fa-life-ring::before,.fa-lightbulb-o::before,.fa-lightbulb::before,.fa-like-round::before,.fa-like::before,.fa-linkedin::before,.fa-linux-new::before,.fa-linux::before,.fa-list::before,.fa-location::before,.fa-lock-alt::before,.fa-lock-close::before,.fa-lock-privacy::before,.fa-lock-sec::before,.fa-lock-vpn::before,.fa-lock::before,.fa-mac-line::before,.fa-mac-new::before,.fa-mac-pc2::before,.fa-mac::before,.fa-mac2::before,.fa-macOS::before,.fa-man::before,.fa-map-marker::before,.fa-menu-icon-news::before,.fa-mess::before,.fa-micro-off::before,.fa-micro-on::before,.fa-minus-circul::before,.fa-minus-solid::before,.fa-minus::before,.fa-mobile-phone::before,.fa-mobile::before,.fa-money-back::before,.fa-money-bitcoin::before,.fa-money-check-pen::before,.fa-money-security::before,.fa-monitor-1::before,.fa-monitor::before,.fa-monthly-vpns::before,.fa-netflix-new::before,.fa-netflix::before,.fa-newbies::before,.fa-newspaper::before,.fa-nologs-vpns::before,.fa-open-lock::before,.fa-overall-new::before,.fa-overall::before,.fa-paper-plane::before,.fa-pass-strength::before,.fa-pass::before,.fa-pc::before,.fa-pedestal::before,.fa-pen::before,.fa-pencil-1::before,.fa-pencil-square-o::before,.fa-pencil::before,.fa-people::before,.fa-pin-location-transparent::before,.fa-pin::before,.fa-plane::before,.fa-planet::before,.fa-play-circle::before,.fa-plus-cir::before,.fa-plus-circul::before,.fa-plus-solid::before,.fa-plus::before,.fa-policy-lock::before,.fa-policy::before,.fa-power-off::before,.fa-press::before,.fa-pricing::before,.fa-privacy-cir::before,.fa-privacy::before,.fa-promotion::before,.fa-question-solid::before,.fa-question_icon::before,.fa-quote-left-solid::before,.fa-red-excl::before,.fa-reddit::before,.fa-reply-right::before,.fa-reply::before,.fa-research::before,.fa-review::before,.fa-reviews::before,.fa-router-brands::before,.fa-router-new::before,.fa-router::before,.fa-router1::before,.fa-safari::before,.fa-sats::before,.fa-score::before,.fa-screen::before,.fa-screenshot::before,.fa-search-location::before,.fa-search-new::before,.fa-search-r::before,.fa-search::before,.fa-security-check::before,.fa-security-hand::before,.fa-security::before,.fa-server-m::before,.fa-server::before,.fa-servers::before,.fa-setting::before,.fa-shield-alt-solid::before,.fa-shield-break::before,.fa-shield-check::before,.fa-shield-cross::before,.fa-shield-wifi::before,.fa-shield::before,.fa-signal-1::before,.fa-signal::before,.fa-sky-new::before,.fa-sky::before,.fa-slingtv::before,.fa-smart-tv::before,.fa-smart_tv::before,.fa-smile-cons::before,.pros-cons-box__col-cons li[data-type="cons"]::before,.fa-smile-improvement::before,.pros-cons-box__col-cons li[data-type="improvement"]::before,.fa-smile::before,.fa-sort::before,.fa-speech::before,.fa-speed-tool::before,.fa-speed::before,.fa-speed3::before,.fa-speeds::before,.fa-spinner::before,.fa-star-emty::before,.fa-star-half-o::before,.fa-star-message::before,.fa-star-o::before,.fa-star-ppc::before,.fa-star::before,.fa-stars-fill::before,.fa-starting-price-xs::before,.fa-stats::before,.fa-stop-hand::before,.fa-stream::before,.fa-streaming::before,.fa-streaming2::before,.fa-support::before,.fa-switch::before,.fa-sync::before,.fa-tablet::before,.fa-tag::before,.fa-tags::before,.fa-test-vpn::before,.fa-text::before,.fa-thumb-up::before,.fa-thumbs-down-solid::before,.fa-thumbs-down::before,.fa-thumbs-o-down::before,.fa-thumbs-o-up::before,.fa-thumbs-up-solid-orange::before,.fa-thumbs-up-solid::before,.fa-thumbs-up::before,.fa-tick-circle::before,.fa-tick::before,.fa-ticket::before,.fa-time::before,.fa-times-circle::before,.fa-times::before,.fa-toggle-on::before,.fa-toggle::before,.fa-torrent-line::before,.fa-torrent-new::before,.fa-torrent::before,.fa-torrenting-new::before,.fa-torrenting::before,.fa-transaction::before,.fa-transfer-Arrow::before,.fa-transfer-arrow::before,.fa-trophy::before,.fa-turn::before,.fa-tv-show::before,.fa-tv-solid::before,.fa-tv::before,.fa-twitter-old::before,.fa-twitter-square-brands::before,.fa-twitter::before,.fa-ubuntu::before,.fa-unblock-new::before,.fa-upload::before,.fa-use-vpn::before,.fa-user-multiple::before,.fa-user-secret::before,.fa-user-star::before,.fa-user::before,.fa-users-solid::before,.fa-vendor-reply::before,.fa-video-camera::before,.fa-visibility-eye::before,.fa-vpn-speeds::before,.fa-wallet-coin::before,.fa-wallet::before,.fa-warning::before,.fa-warning2::before,.fa-web-protection::before,.fa-webrtc::before,.fa-what-is-vpn::before,.fa-wifi::before,.fa-wind::before,.fa-windows-line::before,.fa-windows-new::before,.fa-windows::before,.fa-wrench::before,.fa-youtube-square-brands::before,.fa-youtube::before,.fa-сustomer::before,.pros-cons-box__col-pros li::before{
+    font-family: icons, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: bottom
+}
+
+.fa-BBC::before{
+    content: ""
+}
+
+.fa-CNN::before{
+    content: ""
+}
+
+.fa-Ease-use::before{
+    content: ""
+}
+
+.fa-NewYorkTimes::before{
+    content: ""
+}
+
+.fa-Pricing::before{
+    content: ""
+}
+
+.fa-Research::before{
+    content: ""
+}
+
+.fa-Speed-w::before{
+    content: ""
+}
+
+.fa-Speed::before{
+    content: ""
+}
+
+.fa-Star-s-half-o::before{
+    content: ""
+}
+
+.fa-Star-s-o::before{
+    content: ""
+}
+
+.fa-Star-s::before{
+    content: ""
+}
+
+.fa-The_Guardian::before{
+    content: ""
+}
+
+.fa-Times::before{
+    content: ""
+}
+
+.fa-USA_Today::before{
+    content: ""
+}
+
+.fa-Ubuntu_logo::before{
+    content: ""
+}
+
+.fa-Union::before{
+    content: ""
+}
+
+.fa-access::before{
+    content: ""
+}
+
+.fa-accordion-btn::before{
+    content: ""
+}
+
+.fa-address-card::before{
+    content: ""
+}
+
+.fa-alarm::before{
+    content: ""
+}
+
+.fa-amazon-new::before{
+    content: ""
+}
+
+.fa-amazon-prime::before{
+    content: ""
+}
+
+.fa-amazon-prime2::before{
+    content: ""
+}
+
+.fa-anchor::before{
+    content: ""
+}
+
+.fa-android-1::before{
+    content: ""
+}
+
+.fa-android-brands::before{
+    content: ""
+}
+
+.fa-android-line::before{
+    content: ""
+}
+
+.fa-android-new::before{
+    content: ""
+}
+
+.fa-android-small::before{
+    content: ""
+}
+
+.fa-android::before{
+    content: ""
+}
+
+.fa-angellist::before{
+    content: ""
+}
+
+.fa-angle-up::before{
+    content: ""
+}
+
+.fa-apple-1::before{
+    content: ""
+}
+
+.fa-apple::before{
+    content: ""
+}
+
+.fa-arrow-alt-circle-down-solid::before{
+    content: ""
+}
+
+.fa-arrow-alt-circle-up-solid::before{
+    content: ""
+}
+
+.fa-arrow-circle-down::before{
+    content: ""
+}
+
+.fa-arrow-circle-right::before{
+    content: ""
+}
+
+.fa-arrow-circle-up::before{
+    content: ""
+}
+
+.fa-arrow-left-solid::before{
+    content: ""
+}
+
+.fa-arrow-left::before{
+    content: ""
+}
+
+.fa-arrow-right::before{
+    content: ""
+}
+
+.fa-arrow-up-circle::before{
+    content: ""
+}
+
+.fa-arrow-up::before{
+    content: ""
+}
+
+.fa-arrow::before{
+    content: ""
+}
+
+.fa-award::before{
+    content: ""
+}
+
+.fa-award2::before{
+    content: ""
+}
+
+.fa-bag::before{
+    content: ""
+}
+
+.fa-balance-scale::before{
+    content: ""
+}
+
+.fa-ban::before{
+    content: ""
+}
+
+.fa-bar-chart::before{
+    content: ""
+}
+
+.fa-bbc-iplayer::before{
+    content: ""
+}
+
+.fa-bbc::before{
+    content: ""
+}
+
+.fa-best-deals::before{
+    content: ""
+}
+
+.fa-best_category_check_icon::before{
+    content: ""
+}
+
+.fa-bestvpn::before{
+    content: ""
+}
+
+.fa-bestvpn2::before{
+    content: ""
+}
+
+.fa-bitcoin-tool::before{
+    content: ""
+}
+
+.fa-body::before{
+    content: ""
+}
+
+.fa-browser::before{
+    content: ""
+}
+
+.fa-btc::before{
+    content: ""
+}
+
+.fa-bubble-chat::before{
+    content: ""
+}
+
+.fa-bubble-with-exclamation-mark::before{
+    content: ""
+}
+
+.fa-bullhorn-solid::before{
+    content: ""
+}
+
+.fa-bullhorn::before{
+    content: ""
+}
+
+.fa-calendar-silhouette::before{
+    content: ""
+}
+
+.fa-calendar::before{
+    content: ""
+}
+
+.fa-camera-off::before{
+    content: ""
+}
+
+.fa-camera-on::before{
+    content: ""
+}
+
+.fa-caret-down::before{
+    content: ""
+}
+
+.fa-cashback::before{
+    content: ""
+}
+
+.fa-certificate::before{
+    content: ""
+}
+
+.fa-chart-line-down::before{
+    content: ""
+}
+
+.fa-chart-line::before{
+    content: ""
+}
+
+.fa-chart::before{
+    content: ""
+}
+
+.fa-check-2::before{
+    content: ""
+}
+
+.fa-check-box::before{
+    content: ""
+}
+
+.fa-check-circle-regular::before{
+    content: ""
+}
+
+.fa-check-circle::before{
+    content: ""
+}
+
+.fa-check-coupon::before{
+    content: ""
+}
+
+.fa-check-mark::before{
+    content: ""
+}
+
+.fa-check::before{
+    content: ""
+}
+
+.fa-checkmark::before{
+    content: ""
+}
+
+.fa-chess-king::before{
+    content: ""
+}
+
+.fa-chevron-circle-right-solid::before{
+    content: ""
+}
+
+.fa-chevron-down::before{
+    content: ""
+}
+
+.fa-chevron-left-solid::before{
+    content: ""
+}
+
+.fa-chevron-left::before{
+    content: ""
+}
+
+.fa-chevron-right-solid::before{
+    content: ""
+}
+
+.fa-chevron-right::before,.privacy-alert-wrap .privacy-button-orange::before,.top-vendor ul li .top-vendor-arrow::before{
+    content: ""
+}
+
+.fa-chevron-up::before{
+    content: ""
+}
+
+.fa-chevrons-down::before{
+    content: ""
+}
+
+.fa-china-firewall::before{
+    content: ""
+}
+
+.fa-chrome::before{
+    content: ""
+}
+
+.fa-circle-chevron-left::before{
+    content: ""
+}
+
+.fa-circle-chevron-right::before{
+    content: ""
+}
+
+.fa-circle-down::before{
+    content: ""
+}
+
+.fa-circle-info::before{
+    content: ""
+}
+
+.fa-circle-regular::before{
+    content: ""
+}
+
+.fa-circle-up::before{
+    content: ""
+}
+
+.fa-clip::before{
+    content: ""
+}
+
+.fa-clip2::before{
+    content: ""
+}
+
+.fa-clock-solid::before{
+    content: ""
+}
+
+.fa-clock-time::before{
+    content: ""
+}
+
+.fa-cloud-protection::before{
+    content: ""
+}
+
+.fa-cog::before{
+    content: ""
+}
+
+.fa-coin::before{
+    content: ""
+}
+
+.fa-coins::before{
+    content: ""
+}
+
+.fa-comment-check::before{
+    content: ""
+}
+
+.fa-comment-edit::before{
+    content: ""
+}
+
+.fa-comment-lines::before{
+    content: ""
+}
+
+.fa-comment-o-edit::before{
+    content: ""
+}
+
+.fa-comment::before{
+    content: ""
+}
+
+.fa-comments::before{
+    content: ""
+}
+
+.fa-comparision::before{
+    content: ""
+}
+
+.fa-console::before{
+    content: ""
+}
+
+.fa-crackle::before{
+    content: ""
+}
+
+.fa-credit-card::before{
+    content: ""
+}
+
+.fa-cross::before{
+    content: ""
+}
+
+.fa-customer-support::before{
+    content: ""
+}
+
+.fa-dark-net::before{
+    content: ""
+}
+
+.fa-dark-web::before{
+    content: ""
+}
+
+.fa-dashboard::before{
+    content: ""
+}
+
+.fa-dazn::before{
+    content: ""
+}
+
+.fa-defence-cross::before{
+    content: ""
+}
+
+.fa-defence-tick::before{
+    content: ""
+}
+
+.fa-defence-warning::before{
+    content: ""
+}
+
+.fa-desktop::before{
+    content: ""
+}
+
+.fa-devices::before{
+    content: ""
+}
+
+.fa-discount::before{
+    content: ""
+}
+
+.fa-dislike-round::before{
+    content: ""
+}
+
+.fa-dislike::before{
+    content: ""
+}
+
+.fa-disney-colored::before{
+    content: ""
+}
+
+.fa-disney-new::before{
+    content: ""
+}
+
+.fa-disney::before{
+    content: ""
+}
+
+.fa-doc::before{
+    content: ""
+}
+
+.fa-dollar-sign::before{
+    content: ""
+}
+
+.fa-download-cloud::before{
+    content: ""
+}
+
+.fa-download::before{
+    content: ""
+}
+
+.fa-downloads::before{
+    content: ""
+}
+
+.fa-ease::before{
+    content: ""
+}
+
+.fa-edge::before{
+    content: ""
+}
+
+.fa-envelope-solid::before{
+    content: ""
+}
+
+.fa-envelope::before{
+    content: ""
+}
+
+.fa-espn-plus::before{
+    content: ""
+}
+
+.fa-espn::before{
+    content: ""
+}
+
+.fa-exclamation-triangle-solid::before{
+    content: ""
+}
+
+.fa-exclamation::before{
+    content: ""
+}
+
+.fa-experience::before{
+    content: ""
+}
+
+.fa-expert::before{
+    content: ""
+}
+
+.fa-eye-slash::before{
+    content: ""
+}
+
+.fa-eye::before{
+    content: ""
+}
+
+.fa-eyes-alliance::before{
+    content: ""
+}
+
+.fa-eyes::before{
+    content: ""
+}
+
+.fa-facebook-official::before{
+    content: ""
+}
+
+.fa-facebook-square-brands::before{
+    content: ""
+}
+
+.fa-facebook::before{
+    content: ""
+}
+
+.fa-fact-checked::before{
+    content: ""
+}
+
+.fa-fanduel-new::before{
+    content: ""
+}
+
+.fa-fastest-vpns::before{
+    content: ""
+}
+
+.fa-feather-alt-solid::before{
+    content: ""
+}
+
+.fa-feather::before{
+    content: ""
+}
+
+.fa-features::before{
+    content: ""
+}
+
+.fa-fifa-plus::before{
+    content: ""
+}
+
+.fa-fifa::before{
+    content: ""
+}
+
+.fa-file-certificate::before{
+    content: ""
+}
+
+.fa-file-check::before{
+    content: ""
+}
+
+.fa-file-o::before{
+    content: ""
+}
+
+.fa-file-signature::before{
+    content: ""
+}
+
+.fa-filter::before{
+    content: ""
+}
+
+.fa-finger::before{
+    content: ""
+}
+
+.fa-firefox-browser::before{
+    content: ""
+}
+
+.fa-firefox::before{
+    content: ""
+}
+
+.fa-flag-usa::before{
+    content: ""
+}
+
+.fa-flag::before{
+    content: ""
+}
+
+.fa-fox-news::before{
+    content: ""
+}
+
+.fa-free-trials-vpns::before{
+    content: ""
+}
+
+.fa-free-vpns::before{
+    content: ""
+}
+
+.fa-freebbc-new::before{
+    content: ""
+}
+
+.fa-fresh-session::before{
+    content: ""
+}
+
+.fa-fubotv::before{
+    content: ""
+}
+
+.fa-gamepad-modern::before{
+    content: ""
+}
+
+.fa-gaming-new::before{
+    content: ""
+}
+
+.fa-gaming_console::before{
+    content: ""
+}
+
+.fa-garbage::before{
+    content: ""
+}
+
+.fa-gauge::before{
+    content: ""
+}
+
+.fa-globe-solid::before{
+    content: ""
+}
+
+.fa-globe::before{
+    content: ""
+}
+
+.fa-goblet::before{
+    content: ""
+}
+
+.fa-google-square-brands::before{
+    content: ""
+}
+
+.fa-google::before{
+    content: ""
+}
+
+.fa-graduation-cap::before{
+    content: ""
+}
+
+.fa-green-tick::before{
+    content: ""
+}
+
+.fa-hand-point-right::before{
+    content: ""
+}
+
+.fa-hands-free::before{
+    content: ""
+}
+
+.fa-handshake-o::before{
+    content: ""
+}
+
+.fa-hbo-max::before{
+    content: ""
+}
+
+.fa-hbo-now::before{
+    content: ""
+}
+
+.fa-hbo::before{
+    content: ""
+}
+
+.fa-hbomax::before{
+    content: ""
+}
+
+.fa-hdd::before{
+    content: ""
+}
+
+.fa-heart::before{
+    content: ""
+}
+
+.fa-hidden-eye::before{
+    content: ""
+}
+
+.fa-hide-ip::before{
+    content: ""
+}
+
+.fa-hideIp::before{
+    content: ""
+}
+
+.fa-high::before{
+    content: ""
+}
+
+.fa-holders::before{
+    content: ""
+}
+
+.fa-home-hand::before{
+    content: ""
+}
+
+.fa-home-sale::before{
+    content: ""
+}
+
+.fa-hourglass-half::before{
+    content: ""
+}
+
+.fa-house::before{
+    content: ""
+}
+
+.fa-how-to-use-vpn::before{
+    content: ""
+}
+
+.fa-hulu-full::before{
+    content: ""
+}
+
+.fa-hulu::before{
+    content: ""
+}
+
+.fa-icon-copy::before{
+    content: ""
+}
+
+.fa-icon-follower::before{
+    content: ""
+}
+
+.fa-icon-refresh::before{
+    content: ""
+}
+
+.fa-icon_test::before{
+    content: ""
+}
+
+.fa-id-card::before{
+    content: ""
+}
+
+.fa-india-vpns::before{
+    content: ""
+}
+
+.fa-info-circle-solid::before{
+    content: ""
+}
+
+.fa-info::before{
+    content: ""
+}
+
+.fa-ios-line::before{
+    content: ""
+}
+
+.fa-ios-new::before{
+    content: ""
+}
+
+.fa-ios::before{
+    content: ""
+}
+
+.fa-ios2::before{
+    content: ""
+}
+
+.fa-ios3::before{
+    content: ""
+}
+
+.fa-ip::before{
+    content: ""
+}
+
+.fa-iphone::before{
+    content: ""
+}
+
+.fa-iplayer::before{
+    content: ""
+}
+
+.fa-kill-switch::before{
+    content: ""
+}
+
+.fa-laugh::before{
+    content: ""
+}
+
+.fa-life-ring::before{
+    content: ""
+}
+
+.fa-lightbulb-o::before{
+    content: ""
+}
+
+.fa-lightbulb::before{
+    content: ""
+}
+
+.fa-like-round::before{
+    content: ""
+}
+
+.fa-like::before{
+    content: ""
+}
+
+.fa-linkedin::before{
+    content: ""
+}
+
+.fa-linux-new::before{
+    content: ""
+}
+
+.fa-linux::before{
+    content: ""
+}
+
+.fa-list::before{
+    content: ""
+}
+
+.fa-location::before{
+    content: ""
+}
+
+.fa-lock-alt::before{
+    content: ""
+}
+
+.fa-lock-close::before{
+    content: ""
+}
+
+.fa-lock-privacy::before{
+    content: ""
+}
+
+.fa-lock-sec::before{
+    content: ""
+}
+
+.fa-lock-vpn::before{
+    content: ""
+}
+
+.fa-lock::before{
+    content: ""
+}
+
+.fa-mac-line::before{
+    content: ""
+}
+
+.fa-mac-new::before{
+    content: ""
+}
+
+.fa-mac-pc2::before{
+    content: ""
+}
+
+.fa-mac::before{
+    content: ""
+}
+
+.fa-mac2::before{
+    content: ""
+}
+
+.fa-macOS::before{
+    content: ""
+}
+
+.fa-man::before{
+    content: ""
+}
+
+.fa-map-marker::before{
+    content: ""
+}
+
+.fa-menu-icon-news::before{
+    content: ""
+}
+
+.fa-mess::before{
+    content: ""
+}
+
+.fa-micro-off::before{
+    content: ""
+}
+
+.fa-micro-on::before{
+    content: ""
+}
+
+.fa-minus-circul::before{
+    content: ""
+}
+
+.fa-minus-solid::before{
+    content: ""
+}
+
+.fa-minus::before{
+    content: ""
+}
+
+.fa-mobile-phone::before{
+    content: ""
+}
+
+.fa-mobile::before{
+    content: ""
+}
+
+.fa-money-back::before{
+    content: ""
+}
+
+.fa-money-bitcoin::before{
+    content: ""
+}
+
+.fa-money-check-pen::before{
+    content: ""
+}
+
+.fa-money-security::before{
+    content: ""
+}
+
+.fa-monitor-1::before{
+    content: ""
+}
+
+.fa-monitor::before{
+    content: ""
+}
+
+.fa-monthly-vpns::before{
+    content: ""
+}
+
+.fa-netflix-new::before{
+    content: ""
+}
+
+.fa-netflix::before{
+    content: ""
+}
+
+.fa-newbies::before{
+    content: ""
+}
+
+.fa-newspaper::before{
+    content: ""
+}
+
+.fa-nologs-vpns::before{
+    content: ""
+}
+
+.fa-open-lock::before{
+    content: ""
+}
+
+.fa-overall-new::before{
+    content: ""
+}
+
+.fa-overall::before{
+    content: ""
+}
+
+.fa-paper-plane::before{
+    content: ""
+}
+
+.fa-pass-strength::before{
+    content: ""
+}
+
+.fa-pass::before{
+    content: ""
+}
+
+.fa-pc::before{
+    content: ""
+}
+
+.fa-pedestal::before{
+    content: ""
+}
+
+.fa-pen::before{
+    content: ""
+}
+
+.fa-pencil-1::before{
+    content: ""
+}
+
+.fa-pencil-square-o::before{
+    content: ""
+}
+
+.fa-pencil::before{
+    content: ""
+}
+
+.fa-people::before{
+    content: ""
+}
+
+.fa-pin-location-transparent::before{
+    content: ""
+}
+
+.fa-pin::before{
+    content: ""
+}
+
+.fa-plane::before{
+    content: ""
+}
+
+.fa-planet::before{
+    content: ""
+}
+
+.fa-play-circle::before{
+    content: ""
+}
+
+.fa-plus-cir::before{
+    content: ""
+}
+
+.fa-plus-circul::before{
+    content: ""
+}
+
+.fa-plus-solid::before{
+    content: ""
+}
+
+.fa-plus::before{
+    content: ""
+}
+
+.fa-policy-lock::before{
+    content: ""
+}
+
+.fa-policy::before{
+    content: ""
+}
+
+.fa-power-off::before{
+    content: ""
+}
+
+.fa-press::before{
+    content: ""
+}
+
+.fa-pricing::before{
+    content: ""
+}
+
+.fa-privacy-cir::before{
+    content: ""
+}
+
+.fa-privacy::before{
+    content: ""
+}
+
+.fa-promotion::before{
+    content: ""
+}
+
+.fa-question-solid::before{
+    content: ""
+}
+
+.fa-question_icon::before{
+    content: ""
+}
+
+.fa-quote-left-solid::before{
+    content: ""
+}
+
+.fa-red-excl::before{
+    content: ""
+}
+
+.fa-reddit::before{
+    content: ""
+}
+
+.fa-reply-right::before{
+    content: ""
+}
+
+.fa-reply::before{
+    content: ""
+}
+
+.fa-research::before{
+    content: ""
+}
+
+.fa-review::before{
+    content: ""
+}
+
+.fa-reviews::before{
+    content: ""
+}
+
+.fa-router-brands::before{
+    content: ""
+}
+
+.fa-router-new::before{
+    content: ""
+}
+
+.fa-router::before{
+    content: ""
+}
+
+.fa-router1::before{
+    content: ""
+}
+
+.fa-safari::before{
+    content: ""
+}
+
+.fa-sats::before{
+    content: ""
+}
+
+.fa-score::before{
+    content: ""
+}
+
+.fa-screen::before{
+    content: ""
+}
+
+.fa-screenshot::before{
+    content: ""
+}
+
+.fa-search-location::before{
+    content: ""
+}
+
+.fa-search-new::before{
+    content: ""
+}
+
+.fa-search-r::before{
+    content: ""
+}
+
+.fa-search::before{
+    content: ""
+}
+
+.fa-security-check::before{
+    content: ""
+}
+
+.fa-security-hand::before{
+    content: ""
+}
+
+.fa-security::before{
+    content: ""
+}
+
+.fa-server-m::before{
+    content: ""
+}
+
+.fa-server::before{
+    content: ""
+}
+
+.fa-servers::before{
+    content: ""
+}
+
+.fa-setting::before{
+    content: ""
+}
+
+.fa-shield-alt-solid::before{
+    content: ""
+}
+
+.fa-shield-break::before{
+    content: ""
+}
+
+.fa-shield-check::before{
+    content: ""
+}
+
+.fa-shield-cross::before{
+    content: ""
+}
+
+.fa-shield-wifi::before{
+    content: ""
+}
+
+.fa-shield::before{
+    content: ""
+}
+
+.fa-signal-1::before{
+    content: ""
+}
+
+.fa-signal::before{
+    content: ""
+}
+
+.fa-sky-new::before{
+    content: ""
+}
+
+.fa-sky::before{
+    content: ""
+}
+
+.fa-slingtv::before{
+    content: ""
+}
+
+.fa-smart-tv::before{
+    content: ""
+}
+
+.fa-smart_tv::before{
+    content: ""
+}
+
+.fa-smile-cons::before,.pros-cons-box__col-cons li[data-type="cons"]::before{
+    content: ""
+}
+
+.fa-smile-improvement::before,.pros-cons-box__col-cons li[data-type="improvement"]::before{
+    content: ""
+}
+
+.fa-smile::before{
+    content: ""
+}
+
+.fa-sort::before{
+    content: ""
+}
+
+.fa-speech::before{
+    content: ""
+}
+
+.fa-speed-tool::before{
+    content: ""
+}
+
+.fa-speed::before{
+    content: ""
+}
+
+.fa-speed3::before{
+    content: ""
+}
+
+.fa-speeds::before{
+    content: ""
+}
+
+.fa-spinner::before{
+    content: ""
+}
+
+.fa-star-emty::before{
+    content: ""
+}
+
+.fa-star-half-o::before{
+    content: ""
+}
+
+.fa-star-message::before{
+    content: ""
+}
+
+.fa-star-o::before{
+    content: ""
+}
+
+.fa-star-ppc::before{
+    content: ""
+}
+
+.fa-star::before{
+    content: ""
+}
+
+.fa-stars-fill::before{
+    content: ""
+}
+
+.fa-starting-price-xs::before{
+    content: ""
+}
+
+.fa-stats::before{
+    content: ""
+}
+
+.fa-stop-hand::before{
+    content: ""
+}
+
+.fa-stream::before{
+    content: ""
+}
+
+.fa-streaming::before{
+    content: ""
+}
+
+.fa-streaming2::before{
+    content: ""
+}
+
+.fa-support::before{
+    content: ""
+}
+
+.fa-switch::before{
+    content: ""
+}
+
+.fa-sync::before{
+    content: ""
+}
+
+.fa-tablet::before{
+    content: ""
+}
+
+.fa-tag::before{
+    content: ""
+}
+
+.fa-tags::before{
+    content: ""
+}
+
+.fa-test-vpn::before{
+    content: ""
+}
+
+.fa-text::before{
+    content: ""
+}
+
+.fa-thumb-up::before{
+    content: ""
+}
+
+.fa-thumbs-down-solid::before{
+    content: ""
+}
+
+.fa-thumbs-down::before{
+    content: ""
+}
+
+.fa-thumbs-o-down::before{
+    content: ""
+}
+
+.fa-thumbs-o-up::before{
+    content: ""
+}
+
+.fa-thumbs-up-solid-orange::before{
+    content: ""
+}
+
+.fa-thumbs-up-solid::before{
+    content: ""
+}
+
+.fa-thumbs-up::before{
+    content: ""
+}
+
+.fa-tick-circle::before{
+    content: ""
+}
+
+.fa-tick::before{
+    content: ""
+}
+
+.fa-ticket::before{
+    content: ""
+}
+
+.fa-time::before{
+    content: ""
+}
+
+.fa-times-circle::before{
+    content: ""
+}
+
+.fa-times::before{
+    content: ""
+}
+
+.fa-toggle-on::before{
+    content: ""
+}
+
+.fa-toggle::before{
+    content: ""
+}
+
+.fa-torrent-line::before{
+    content: ""
+}
+
+.fa-torrent-new::before{
+    content: ""
+}
+
+.fa-torrent::before{
+    content: ""
+}
+
+.fa-torrenting-new::before{
+    content: ""
+}
+
+.fa-torrenting::before{
+    content: ""
+}
+
+.fa-transaction::before{
+    content: ""
+}
+
+.fa-transfer-Arrow::before{
+    content: ""
+}
+
+.fa-transfer-arrow::before{
+    content: ""
+}
+
+.fa-trophy::before{
+    content: ""
+}
+
+.fa-turn::before{
+    content: ""
+}
+
+.fa-tv-show::before{
+    content: ""
+}
+
+.fa-tv-solid::before{
+    content: ""
+}
+
+.fa-tv::before{
+    content: ""
+}
+
+.fa-twitter-old::before{
+    content: ""
+}
+
+.fa-twitter-square-brands::before{
+    content: ""
+}
+
+.fa-twitter::before{
+    content: ""
+}
+
+.fa-ubuntu::before{
+    content: ""
+}
+
+.fa-unblock-new::before{
+    content: ""
+}
+
+.fa-upload::before{
+    content: ""
+}
+
+.fa-use-vpn::before{
+    content: ""
+}
+
+.fa-user-multiple::before{
+    content: ""
+}
+
+.fa-user-secret::before{
+    content: ""
+}
+
+.fa-user-star::before{
+    content: ""
+}
+
+.fa-user::before{
+    content: ""
+}
+
+.fa-users-solid::before{
+    content: ""
+}
+
+.fa-vendor-reply::before{
+    content: ""
+}
+
+.fa-video-camera::before{
+    content: ""
+}
+
+.fa-visibility-eye::before{
+    content: ""
+}
+
+.fa-vpn-speeds::before{
+    content: ""
+}
+
+.fa-wallet-coin::before{
+    content: ""
+}
+
+.fa-wallet::before{
+    content: ""
+}
+
+.fa-warning::before{
+    content: ""
+}
+
+.fa-warning2::before{
+    content: ""
+}
+
+.fa-web-protection::before{
+    content: ""
+}
+
+.fa-webrtc::before{
+    content: ""
+}
+
+.fa-what-is-vpn::before{
+    content: ""
+}
+
+.fa-wifi::before{
+    content: ""
+}
+
+.fa-wind::before{
+    content: ""
+}
+
+.fa-windows-line::before{
+    content: ""
+}
+
+.fa-windows-new::before{
+    content: ""
+}
+
+.fa-windows::before{
+    content: ""
+}
+
+.fa-wrench::before{
+    content: ""
+}
+
+.fa-youtube-square-brands::before{
+    content: ""
+}
+
+.fa-youtube::before{
+    content: ""
+}
+
+.fa-сustomer::before{
+    content: ""
+}
+:root {
+    --white-color: #fff;
+    --black-color: #333;
+    --basic-font: "Arial",sans-serif;
+    --blue-color: #005eab;
+    --bg-color: #173a68;
+}
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+html {
+	font-size: 16px;
+}
+
+html,
+body {
+	min-height: 100%;
+	position: relative;
+}
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: var(--basic-font);
+  color: var(--black-color);
+  background-color: var(--white-color);
+  font-size: 1rem;
+}
+
+.flex {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -100;
+    top: -5000px;
+    left: -5000px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.container {
+  width: 100%;
+	max-width: 100%;
+	padding: 0 10px;
+	margin: 0 auto;
+
+  @media (width >= 768px) {
+    width: 750px;
+    padding: 0;
+  }
+
+  @media (width >= 992px) {
+    width: 968px;
+  }
+
+  @media (width >= 1200px) {
+    width: 1168px;
+  }
+}
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu__item.search {
+    display: none;
+    position: relative;
+
+    @media (width >= 1200px) {
+        display: block;
+        font-size: 16px;
+        padding-inline-end: 15px;
+
+        &.open i {
+            position: absolute;
+            top: 6px;
+            left: 5px;
+        }
+
+        & input {
+            padding: 5px 6px;
+            border: 1.5px solid #e7eaee;
+            border-radius: 6px;
+            font-size: 16px;
+            display: none;
+            width: auto;
+            max-width: 170px;
+            line-height: 20px;
+            padding-left: 28px;
+
+            .open & {
+                display: inline;
+            }
+        }
+    }
+}
+
+.menu__item.languages {
+    position: relative;
+}
+
+.languages__current {
+    & img {
+        display: none;
+
+        @media (width >= 1200px) {
+            display: inline;
+            vertical-align: text-top;
+        }
+    }
+
+    & svg {
+        transition: 0.4s ease;
+    }
+
+    &.open svg {
+        rotate: 180deg;
+    }
+}
+
+.menu__list {
+    list-style: none;
+    z-index: 10;
+    position: absolute;
+    display: none;
+    grid-auto-columns: 120px;
+    grid-template-rows: repeat(14, auto);
+    grid-auto-flow: column;
+    top: calc(100% + 24px);
+    padding: 0;
+    background: var(--white-color);
+    color: var(--black-color);
+    box-shadow: 2px 2px 16px rgba(0 0 0 / 25%);
+    border-radius: 6px;
+    right: -50px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        border-left: 18px solid transparent;
+        border-right: 18px solid transparent;
+        border-bottom: 11px solid #fff;
+        left: calc(88% - 55px);
+
+        @media (width >= 1200px) {
+            left: calc(93% - 18px);
+        }
+    }
+
+    &.open {
+        display: grid;
+    }
+
+    @media (width >= 340px) {
+        grid-auto-columns: 160px;
+        top: calc(100% + 34px);
+    }
+
+    @media (width >= 1200px) {
+        width: fit-content;
+        grid-template-rows: repeat(10, auto);
+        right: -8px;
+    }
+}
+
+.menu__list-item:nth-child(-n+14) {
+    border-inline-end: 1px solid #e7eaee;
+}
+
+.menu__list-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 9px;
+    padding: 11px 6px;
+    color: var(--blue-color);
+    text-transform: capitalize;
+
+    @media (width >= 360px) {
+        padding: 11px 16px;
+    }
+
+    @media (width >= 1200px) {
+        &:hover {
+            background-color: #e8f8ff;
+        }
+    }
+}
+
+.menu__item.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 14px;
+    width: 20px;
+    margin-left: 25px;
+
+    @media (width >= 1200px) {
+        display: none;        
+    }
+
+    &.open {
+        position: absolute;
+        right: 20px;
+        z-index: 104;
+    }
+
+    &.open .burger__line--1 {
+        transform: rotateZ(45deg) translateY(4px) translateX(4px);
+        background: #8999b1;
+    }
+
+    &.open .burger__line--2 {
+        opacity: 0;
+    }
+
+    &.open .burger__line--3 {
+        transform: rotateZ(-45deg) translateY(-5px) translateX(4px);
+        background: #8999b1;
+    }
+}
+
+.burger__line {
+    height: 2px;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--white-color);
+    transition: 0.4s ease-in-out;
+}
+.header {
+  position: relative;
+  line-height: 1.125;
+  
+  &::before {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background: rgba(0 0 0 / 50%);
+    transition: 0.3s ease-in-out;
+  }
+
+  &.open::before {
+    content: '';
+  }
+}
+
+.header__top {
+  background-color: var(--bg-color);
+  color: var(--white-color);
+  padding: 7px 0;
+
+  @media (width >= 1200px) {
+    background-color: var(--white-color);
+    color: var(--black-color);
+  }
+}
+
+.header__top-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  min-width: 280px;
+  width: 70vw;
+  height: 100%;
+  padding: 37px 20px 0;
+  background: #fff;
+  transition: 0.5s ease;
+  max-height: 100vh;
+  overflow-y: auto;
+  right: 0;
+  opacity: 0;
+  transform: translateX(100%);
+
+  @media (width >= 340px) {
+    min-width: 320px;
+  }
+
+  @media (width >= 1200px) {
+    background: var(--bg-color);
+    color: var(--white-color);
+    position: static;
+    transform: translateX(0);
+    overflow-y: unset;
+    width: auto;
+    height: auto;
+    padding: 0;
+    display: block;
+    opacity: 1;
+  }
+}
+
+.header.open .header__nav {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.header__follow {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  @media (width >= 1200px) {
+    display: none;
+  }
+}
+
+.header__follow-link {
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.header__follow-link--facebook {
+  background-color: #3a589e;
+}
+
+.header__follow-link--twitter {
+  background-color: #000;
+}
+
+.header__follow-link--google,
+.header__follow-link--youtube {
+  background-color: red;
+}
+.main {
+    min-height: 100vh;
+}
+.logo {
+    max-height: 43px;
+    width: auto;
+}
+
+.logo__desktop {
+    display: none;
+
+    @media (width >= 1200px) {
+        display: block;
+    }
+}
+
+@media (width >= 1200px) {
+    .logo__mobile {
+        display: none;
+    }
+}
+@media (width >= 1200px) {
+    .nav__panel,
+    .nav__item-search {
+        display: none;
+    }
+}
+
+.nav__item-search {
+    min-width: 280px;
+    position: relative;
+}
+
+.nav__item-search i {
+    position: absolute;
+    top: 12px;
+    font-size: 18px;
+    left: 5px;
+}
+
+.nav__item-search input {
+    padding: 5px 6px;
+    border: 1.5px solid #e7eaee;
+    border-radius: 6px;
+    line-height: 30px;
+    font-size: 16px;
+    width: 90%;
+    padding-left: 28px;
+
+    @media (width >= 375px) {
+        width: 100%;
+    }
+}
+
+.nav__list {
+    list-style: none;
+
+    @media (width >= 1200px) {
+        width: 1168px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-wrap: wrap;
+        gap: 75px;
+        position: relative;
+    }
+}
+
+.nav__item {
+    position: relative;
+    border-bottom: 1px solid #e7eaee;
+
+    @media (width >= 1200px) {
+        border: none;
+    }
+}
+
+.nav__list-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px 0 10px 16px;
+    line-height: 17px;
+    color: var(--black-color);
+
+    & img {
+        max-width: 20px;
+        height: auto;
+    }
+
+    @media (width >= 1200px) {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        transition: 0.4s;
+
+        &:not(.nav__list-link--title):hover {
+            background-color: #e8f8ff;
+        }
+
+        &:not(.nav__list-link--title) {
+            border-bottom: 1px solid #e7eaee;
+            font-size: 16px;
+        }
+    }
+
+    & i {
+        padding-top: 3px;
+        font-size: 20px;
+        color: var(--blue-color);
+        transition: 0.5s ease;
+
+        @media (width >= 1200px) {
+            padding-top: 3px;
+            font-size: 20px;
+        }
+    }
+
+    & .nav__text-small {
+        display: none;
+
+        @media (width >= 1200px) {
+            display: block;
+            padding-top: 6px;
+            font-size: 12px;
+            color: #898989;
+        }
+    }
+}
+
+.nav__submenu {
+    height: 0;
+    overflow: hidden;
+    border-left: 1.5px #e7eaee solid;
+    transition: 0.5s ease;
+    list-style: none;
+
+    @media (width >= 1200px) {
+        border: none;
+
+        &:not(.nav__sub) {
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            top: calc(100% + 7px);
+            right: 50%;
+            transform: translate(50%, 0);
+            background: var(--white-color);
+            border-left: none;
+            border-radius: 6px;
+            padding: 10px;
+            display: grid;
+            grid-auto-columns: 290px;
+            grid-template-rows: repeat(6, auto);
+            grid-auto-flow: column;
+            filter: drop-shadow(2px 2px 16px rgba(0 0 0 / 25%));
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: -23px;
+                padding-top: 10px;
+                width: 200px;
+                height: 50px;
+                left: calc(50% - 82px);
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent;
+                border-bottom: 70px solid var(--white-color);
+            }
+        }
+        
+        &.nav__submenu--four {
+            grid-template-rows: unset;
+            right: -475%;
+
+            &::before {
+                left: 5%;
+            }
+
+            & .nav__list-link:not(.nav__list-link--title) {
+                margin-right: 45px;
+            }
+        }
+
+        .reviews & {
+            grid-template-rows: repeat(8, auto);
+        }
+
+        &.nav__sub {
+            height: auto;
+        }
+
+        &:hover {
+            height: auto;
+            opacity: 1;
+            width: auto;
+            overflow: visible;
+        }
+        
+    }
+}
+
+@media (width >= 1200px) {
+    .nav__list-link--title {
+        padding-inline-end: 16px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: initial;
+    }
+}
+
+.nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    @media (width >= 1200px) {
+        justify-content: start;
+
+        &:hover ~ .nav__submenu {
+            height: auto;
+            opacity: 1;
+            width: auto;
+            overflow: visible;
+        }
+    }
+
+    & i {
+        font-size: 14px;
+        color: var(--blue-color);
+        transition: 0.5s ease;
+
+        @media (width >= 1200px) {
+            color: var(--white-color);
+            font-size: 12px;
+        }
+    }
+}
+
+.nav__item-has-child.open {
+    border-bottom: none;
+
+    & > .nav__link i {
+        transform: rotate(180deg);
+    }
+
+    & > .nav__submenu {
+        height: auto;
+    }
+
+    & > .nav__link {
+        font-weight: 700;
+    }
+
+    & img {
+        max-width: 20px;
+        height: auto;
+    }
+}
+
+
+/*# sourceMappingURL=app.5537222d.css.map*/

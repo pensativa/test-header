@@ -1,0 +1,18 @@
+.logo {
+    max-height: 43px;
+    width: auto;
+}
+
+.logo__desktop {
+    display: none;
+
+    @media (width >= 1200px) {
+        display: block;
+    }
+}
+
+@media (width >= 1200px) {
+    .logo__mobile {
+        display: none;
+    }
+}
