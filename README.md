@@ -1,6 +1,7 @@
 # Testig project
 
-A concept of Netflix with 3D scene. Frontend project.
+Header of real website. Frontend project.
+[Live preview](https://pensativa.github.io/test-header/build/)
 
 ### Installation
 
@@ -27,6 +28,3 @@ npm run build
 - SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
 - Autoprefixing of browserspecific CSS rules via [postcss](https://postcss.org/) and [postcss-preset-env](https://github.com/csstools/postcss-preset-env)
 - Style Linting via [stylelint](https://stylelint.io/)
-- 3D sceen via [ThreeJS](https://threejs.org/)
-- Onload animation via [gsap](https://gsap.com/)
-- Slider via [SwiperJS](https://swiperjs.com/)
