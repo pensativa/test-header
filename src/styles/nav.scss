@@ -113,9 +113,16 @@
 .nav__submenu {
     height: 0;
     overflow: hidden;
-    border-left: 1.5px #e7eaee solid;
     transition: 0.5s ease;
     list-style: none;
+
+    &:not(.nav__sub) {
+        border-left: 1.5px #e7eaee solid;
+
+        @media (width >= 1200px) {
+            border: none;
+        }
+    }
 
     @media (width >= 1200px) {
         border: none;

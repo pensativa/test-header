@@ -107,6 +107,22 @@
     }
 }
 
+.menu__list-item {
+    overflow: hidden;
+}
+
+.menu__list-item:first-child {
+    border-top-left-radius: 6px;
+}
+
+.new-menu .menu__item-child:nth-child(10) {
+    border-end-start-radius: 6px;
+}
+
+.menu__list-item:nth-child(21) {
+    border-start-end-radius: 6px;
+}
+
 .menu__list-item:nth-child(-n+14) {
     border-inline-end: 1px solid #e7eaee;
 }
